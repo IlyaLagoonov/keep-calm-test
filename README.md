@@ -1,1 +1,1 @@
-# keep-calm-test
+# Тестовое задание в Keep Calm
