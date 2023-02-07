@@ -5,6 +5,7 @@ body {
     color: var(--black);
     background: var(--white);
     font-family: "Manrope-Medium", sans-serif;
+    scroll-snap-type: y mandatory;
 }
 
 @font-face {
@@ -40,6 +41,7 @@ a {
         background: white;
     }
 }
+
 
 :root {
     --gradient: linear-gradient(0deg, #464341 0%, #010101 100%);

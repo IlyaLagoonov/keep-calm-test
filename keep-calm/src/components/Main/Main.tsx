@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Main.module.css'
-import {Slider} from "../Slider/Slider";
+import Slider from "../Slider/Slider";
 import {Heading} from "../Heading/Heading";
 
 
@@ -34,15 +34,11 @@ export const Main = () => {
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                             </p>
                         </div>
-                        <img src='./images/main2.png' alt='botton img'/>
+                        <img src='./images/main2.png' alt='bottom img'/>
                     </div>
                 </div>
             </div>
-            <div>
-                <Slider/>
-            </div>
-
-
+            <Slider/>
             <div className={styles.bottomBlock}>
                 <div className={styles.wrapper}>
                     <Heading tag='h1' children='ut aliquip ex ea commodo consequat'/>
