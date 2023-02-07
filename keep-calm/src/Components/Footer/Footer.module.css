@@ -1,0 +1,11 @@
+
+.footer {
+    background: var(--black);
+    display: flex;
+    justify-content: center;
+    padding: 150px 0px  18px 0px;
+}
+
+.copy {
+    color: var(--white);
+}

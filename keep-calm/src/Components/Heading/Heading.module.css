@@ -1,0 +1,19 @@
+
+.h1 {
+    font-weight: 500;
+    font-family: var(--font-family-orchidea);
+    font-size: 48px;
+    color: var(--black);
+    line-height: 130%;
+    margin: 0;
+}
+
+.h2 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 110%;
+    margin: 0;
+    font-family: var(--font-family-orchidea);
+    color: var(--black);
+}
+

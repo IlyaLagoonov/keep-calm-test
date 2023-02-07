@@ -1,0 +1,52 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    color: var(--black);
+    background: var(--white);
+    font-family: "Manrope-Medium", sans-serif;
+}
+
+@font-face {
+    font-family: 'Manrope-Medium';
+    src: local('Manrope-Medium'), url(./fonts/Manrope-Medium.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'OrchideaPro-Medium';
+    src: local('OrchideaPro-Medium'), url(./fonts/OrchideaPro-Medium.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: local('Roboto-Regular'), url(./fonts/Roboto-Regular.woff) format('woff');
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        color-scheme: dark;
+    }
+    body {
+        color: black;
+        background: white;
+    }
+}
+
+:root {
+    --gradient: linear-gradient(0deg, #464341 0%, #010101 100%);
+    --black: #141414;
+    --white: #FFFFFF;
+    --font-family-monroe: "Manrope-Medium", sans-serif;
+    --font-family-orchidea: "OrchideaPro-Medium", sans-serif;
+    --font-family-roboto: "Roboto-Regular", sans-serif;
+    --max-width: 1397px;
+}

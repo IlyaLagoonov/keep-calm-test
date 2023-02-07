@@ -1,0 +1,36 @@
+.container {
+    margin: 0 auto;
+    max-width: var(--max-width);
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 123px;
+}
+
+.card {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.rightSide {
+    max-width: 600px;
+    padding:80px 0px 50px 128px;
+}
+
+.rightCard {
+    display: flex;
+    justify-content: flex-end
+}
+
+.leftSide {
+    padding-right: 124px;
+    max-width: 638px;
+}
+
+.bottomBlock {
+    margin-bottom: 160px;
+}
