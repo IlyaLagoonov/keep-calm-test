@@ -14,7 +14,7 @@ export const Header = () => {
         <header className={styles.header}>
             <div className={styles.container}>
                 <Logo />
-                {width < breakpoint ? <Mobile /> : <a className={styles.number} href="#">+7 (495) 495-49-54 </a>}
+                {width < breakpoint ? <Mobile /> : <a className={styles.number} href="tel:+7 (495) 495-49-54">+7 (495) 495-49-54 </a>}
             </div>
         </header>
     )
