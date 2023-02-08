@@ -60,14 +60,14 @@ export const Slider = () => {
     return (
         <section className={styles.sectionSlider}>
             <ParallaxText baseVelocity={5}>
-                <img src='./images/slide1.png' />
-                <img src='./images/slide2.png' />
-                <img src='./images/slide3.png' />
-                <img src='./images/slide4.png' />
-                <img src='./images/slide5.png' />
-                <img src='./images/slide6.png' />
-                <img src='./images/slide7.png' />
-                <img src='./images/slide8.png' />
+                <img src='./images/slide1.jpg' alt="slide1" />
+                <img src='./images/slide2.jpg' alt="slide2" />
+                <img src='./images/slide3.jpg' alt="slide3" />
+                <img src='./images/slide4.jpg' alt="slide4" />
+                <img src='./images/slide5.jpg' alt="slide5" />
+                <img src='./images/slide6.jpg' alt="slide6" />
+                <img src='./images/slide7.jpg' alt="slide7" />
+                <img src='./images/slide8.jpg' alt="slide8" />
             </ParallaxText>
         </section>
     )

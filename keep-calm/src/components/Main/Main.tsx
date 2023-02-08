@@ -17,8 +17,8 @@ export const Main = () => {
                 </div>
                 <div className={styles.card}>
                     <picture>
-                        <source media='(max-width: 620px)' srcSet='./images/mainMobile.png' />
-                        <img src='./images/main.png' alt="main pic" />
+                        <source media='(max-width: 620px)' srcSet='./images/mainMobile.jpg' />
+                        <img src='./images/main.jpg' alt="main pic" />
                     </picture>
                     <div className={styles.rightSide}>
                         <Heading tag='h2' children='Lorem ipsum dolor sit amet, consectetur adipiscing elit' />
@@ -42,8 +42,8 @@ export const Main = () => {
                             </p>
                         </div>
                         <picture>
-                            <source media='(max-width: 620px)' srcSet='./images/mainMobile2.png' />
-                            <img src='./images/main2.png' alt='bottom img' />
+                            <source media='(max-width: 620px)' srcSet='./images/mainMobile2.jpg' />
+                            <img src='./images/main2.jpg' alt='bottom img' />
                         </picture>
                     </div>
                 </div>
@@ -58,8 +58,8 @@ export const Main = () => {
                 </div>
                 <div className={styles.card}>
                     <picture>
-                        <source media='(max-width: 620px)' srcSet='./images/bottomMobile.png' />
-                        <img src='./images/bottom.png' alt='top img' />
+                        <source media='(max-width: 620px)' srcSet='./images/bottomMobile.jpg' />
+                        <img src='./images/bottom.jpg' alt='top img' />
                     </picture>
                     <div className={styles.rightSide}>
                         <Heading tag='h2' children='Lorem ipsum dolor sit amet, consectetur adipiscing elit' />
@@ -83,8 +83,8 @@ export const Main = () => {
                             </p>
                         </div>
                         <picture>
-                            <source media='(max-width: 620px)' srcSet='./images/bottomMobile2.png' />
-                            <img src='./images/bottom2.png' alt='top img' />
+                            <source media='(max-width: 620px)' srcSet='./images/bottomMobile2.jpg' />
+                            <img src='./images/bottom2.jpg' alt='top img' />
                         </picture>
                     </div>
                 </div>
