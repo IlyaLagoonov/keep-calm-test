@@ -1,18 +1,22 @@
 .header {
-    padding:30px 30px;
-    background: var(--gradient);
+  padding: 30px;
+  background: var(--gradient);
 }
-
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: var(--max-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: var(--max-width);
 }
 
-
 .number {
-    color: var(--white);
+  color: var(--white);
+}
+
+@media (max-width: 620px) {
+  .header {
+    padding: 20px;
+  }
 }

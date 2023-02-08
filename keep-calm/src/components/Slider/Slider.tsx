@@ -16,9 +16,9 @@ interface ParallaxProps {
     baseVelocity: number;
 }
 
-function ParallaxText ({children, baseVelocity = 100}: ParallaxProps) {
+function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
     const baseX = useMotionValue(0);
-    const {scrollY} = useScroll();
+    const { scrollY } = useScroll();
     const scrollVelocity = useVelocity(scrollY);
     const smoothVelocity = useSpring(scrollVelocity, {
         damping: 50,
@@ -46,7 +46,7 @@ function ParallaxText ({children, baseVelocity = 100}: ParallaxProps) {
 
     return (
         <div className={styles.parallax}>
-            <motion.div className={styles.scroller} style={{x}}>
+            <motion.div className={styles.scroller} style={{ x }}>
                 <span>{children}</span>
                 <span>{children}</span>
                 <span>{children}</span>
@@ -56,18 +56,18 @@ function ParallaxText ({children, baseVelocity = 100}: ParallaxProps) {
     );
 }
 
-export default function Slider() {
+export const Slider = () => {
     return (
         <section className={styles.sectionSlider}>
             <ParallaxText baseVelocity={5}>
-                <img src='./images/slide1.png'  />
-                <img src='./images/slide2.png'  />
-                <img src='./images/slide3.png'  />
-                <img src='./images/slide4.png'  />
-                <img src='./images/slide5.png'  />
-                <img src='./images/slide6.png'  />
-                <img src='./images/slide7.png'  />
-                <img src='./images/slide8.png'  />
+                <img src='./images/slide1.png' />
+                <img src='./images/slide2.png' />
+                <img src='./images/slide3.png' />
+                <img src='./images/slide4.png' />
+                <img src='./images/slide5.png' />
+                <img src='./images/slide6.png' />
+                <img src='./images/slide7.png' />
+                <img src='./images/slide8.png' />
             </ParallaxText>
         </section>
     )

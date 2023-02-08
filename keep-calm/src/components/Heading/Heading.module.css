@@ -1,19 +1,41 @@
-
 .h1 {
-    font-weight: 500;
-    font-family: var(--font-family-orchidea);
-    font-size: 48px;
-    color: var(--black);
-    line-height: 130%;
-    margin: 0;
+  font-weight: 500;
+  font-family: var(--font-family-orchidea);
+  font-size: 48px;
+  color: var(--black);
+  line-height: 130%;
+  margin: 0;
+  margin-bottom: 123px;
 }
 
 .h2 {
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 110%;
-    margin: 0;
-    font-family: var(--font-family-orchidea);
-    color: var(--black);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 110%;
+  margin: 0;
+  margin-bottom: 25px;
+  font-family: var(--font-family-orchidea);
+  color: var(--black);
 }
 
+@media (max-width: 620px) {
+  .h1 {
+    font-size: 24px;
+    color: var(--black);
+    max-width: 219px;
+    text-transform: uppercase;
+    line-height: 120%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    margin: 0;
+    margin-bottom: 25px;
+    font-family: var(--font-family-orchidea);
+    color: var(--black);
+  }
+}

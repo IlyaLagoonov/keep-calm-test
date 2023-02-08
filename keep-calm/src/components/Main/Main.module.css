@@ -1,36 +1,125 @@
 .container {
-    margin: 0 auto;
-    max-width: var(--max-width);
+  margin: 0 auto;
+  max-width: var(--max-width);
 }
 
-
 .wrapper {
-    display: flex;
-    justify-content: center;
-    padding-top: 200px;
-    padding-bottom: 123px;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 123px;
 }
 
 .card {
-    display: flex;
-    margin-bottom: 100px;
+  display: flex;
+  margin-bottom: 100px;
 }
 
 .rightSide {
-    max-width: 600px;
-    padding:80px 0px 50px 128px;
+  max-width: 661px;
+  padding: 80px 0px 50px 128px;
 }
 
 .rightCard {
-    display: flex;
-    justify-content: flex-end
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 160px;
 }
 
 .leftSide {
-    padding-right: 124px;
-    max-width: 638px;
+  padding-right: 124px;
+  max-width: 638px;
+}
+
+.description {
+  font-family: var(--font-family-monroe);
+  color: var(--black);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
 }
 
 .bottomBlock {
-    margin-bottom: 160px;
+  margin-bottom: 160px;
+}
+
+.bottomHeading {
+  margin-bottom: 123px;
+}
+
+.mobileSlider {
+  width: 100vw;
+  height: 68vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobileSlider img {
+  position: absolute;
+  max-width: 355px;
+  min-height: 533px;
+}
+
+@media (max-width: 620px) {
+
+  .mobileSlider {
+    width: 68vw;
+    height: 68vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper {
+    justify-content: flex-start
+  }
+
+  .mobileSlider img {
+    position: absolute;
+    max-width: 203px;
+    min-height: 334px;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 620px;
+  }
+
+  .wrapper {
+    padding-top: 72px;
+    padding-bottom: 64px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6px;
+  }
+
+  .rightSide {
+    max-width: 335px;
+    padding: 40px 20px 56px 20px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .rightCard {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 70px;
+  }
+
+  .leftSide {
+    max-width: 335px;
+    padding: 40px 20px 56px 20px;
+  }
+  .bottomBlock {
+    margin-bottom: 0px;
+  }
 }
