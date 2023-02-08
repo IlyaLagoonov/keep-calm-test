@@ -16,10 +16,7 @@ export const Main = () => {
                     <Heading tag='h1' children='ut aliquip&nbsp; ex&nbsp;ea commodo consequat' />
                 </div>
                 <div className={styles.card}>
-                    <picture>
-                        <source media='(max-width: 620px)' srcSet='./images/mainMobile.jpg' />
-                        <img src='./images/main.jpg' alt="main pic" />
-                    </picture>
+                    <img className={styles.picture} src='./images/main.jpg' alt="main pic" />
                     <div className={styles.rightSide}>
                         <Heading tag='h2' children='Lorem ipsum dolor sit amet, consectetur adipiscing elit' />
                         <p className={styles.description}>
@@ -41,10 +38,7 @@ export const Main = () => {
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                             </p>
                         </div>
-                        <picture>
-                            <source media='(max-width: 620px)' srcSet='./images/mainMobile2.jpg' />
-                            <img src='./images/main2.jpg' alt='bottom img' />
-                        </picture>
+                        <img className={styles.picture} src='./images/main2.jpg' alt='bottom img' />
                     </div>
                 </div>
                 <div className={styles.container}>
@@ -57,10 +51,7 @@ export const Main = () => {
                     <Heading tag='h1' children='ut aliquip ex ea commodo consequat' />
                 </div>
                 <div className={styles.card}>
-                    <picture>
-                        <source media='(max-width: 620px)' srcSet='./images/bottomMobile.jpg' />
-                        <img src='./images/bottom.jpg' alt='top img' />
-                    </picture>
+                    <img className={styles.picture} src='./images/bottom.jpg' alt='top img' />
                     <div className={styles.rightSide}>
                         <Heading tag='h2' children='Lorem ipsum dolor sit amet, consectetur adipiscing elit' />
                         <p className={styles.description}>
@@ -82,10 +73,7 @@ export const Main = () => {
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                             </p>
                         </div>
-                        <picture>
-                            <source media='(max-width: 620px)' srcSet='./images/bottomMobile2.jpg' />
-                            <img src='./images/bottom2.jpg' alt='top img' />
-                        </picture>
+                        <img className={styles.picture} src='./images/bottom2.jpg' alt='top img' />
                     </div>
                 </div>
             </div>
