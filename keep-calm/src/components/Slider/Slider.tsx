@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { ReactNode, useRef } from "react";
 import styles from './Slider.module.css'
 import {
     motion,
