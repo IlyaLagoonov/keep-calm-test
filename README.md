@@ -26,6 +26,6 @@
 ![mobile-keep-calm](https://user-images.githubusercontent.com/105582256/217555521-97b6678a-f9d2-426b-95f3-3c3a2cb6150c.gif)
 
 
-##Кастомный хук для вычисления изменений ширины экрана: 
+## Кастомный хук для вычисления изменений ширины экрана: 
 
 ![hook](https://user-images.githubusercontent.com/105582256/217558071-e1c99738-432b-4efc-abe4-56909d35980b.png)
